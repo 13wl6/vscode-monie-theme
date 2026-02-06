@@ -1,0 +1,38 @@
+{
+  "name": "monie-theme",
+  "displayName": "monie-theme",
+  "description": "monie-theme 主题",
+  "version": "0.0.3",
+  "publisher": "lyboy",
+  "engines": {
+    "vscode": "^1.70.0",
+    "cursor": "^2.1.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "bugs": {
+    "url": "https://github.com/13wl6/vscode-monie-theme/issues"
+  },
+  "homepage": "https://github.com/13wl6/vscode-monie-theme/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/13wl6/vscode-monie-theme.git"
+  },
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monie Light",
+        "uiTheme": "vs",
+        "path": "./themes/monie-theme-light-color-theme.json"
+      },
+      {
+        "label": "Monie Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monie-theme-dark-color-theme.json"
+      }
+    ]
+  }
+}
