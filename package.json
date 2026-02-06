@@ -2,7 +2,7 @@
   "name": "monie-theme",
   "displayName": "monie-theme",
   "description": "monie-theme 主题",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "lyboy",
   "engines": {
     "vscode": "^1.70.0",
